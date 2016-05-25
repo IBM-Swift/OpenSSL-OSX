@@ -15,16 +15,16 @@
  **/
  
 module CCrypto [system] {
-       header "/usr/include/openssl/conf.h"
-       header "/usr/include/openssl/evp.h"
-       header "/usr/include/openssl/err.h"
-       header "/usr/include/openssl/bio.h"
-       header "/usr/include/openssl/ssl.h"
-       header "/usr/include/openssl/md4.h"
-       header "/usr/include/openssl/md5.h"
-       header "/usr/include/openssl/sha.h"
-       header "/usr/include/openssl/hmac.h"
-       header "/usr/include/openssl/random.h"
+       header "/usr/local/opt/openssl/include/openssl/conf.h"
+       header "/usr/local/opt/openssl/include/openssl/evp.h"
+       header "/usr/local/opt/openssl/include/openssl/err.h"
+       header "/usr/local/opt/openssl/include/openssl/bio.h"
+       header "/usr/local/opt/openssl/include/openssl/ssl.h"
+       header "/usr/local/opt/openssl/include/openssl/md4.h"
+       header "/usr/local/opt/openssl/include/openssl/md5.h"
+       header "/usr/local/opt/openssl/include/openssl/sha.h"
+       header "/usr/local/opt/openssl/include/openssl/hmac.h"
+       header "/usr/local/opt/openssl/include/openssl/random.h"
        link "ssl"
        link "crypto"
 } 
