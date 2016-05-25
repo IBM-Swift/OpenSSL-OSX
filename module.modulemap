@@ -24,7 +24,7 @@ module OpenSSL [system] {
        header "/usr/local/opt/openssl/include/openssl/md5.h"
        header "/usr/local/opt/openssl/include/openssl/sha.h"
        header "/usr/local/opt/openssl/include/openssl/hmac.h"
-       header "/usr/local/opt/openssl/include/openssl/random.h"
+       header "/usr/local/opt/openssl/include/openssl/rand.h"
        link "ssl"
        link "crypto"
 } 
