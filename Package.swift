@@ -17,7 +17,7 @@
 import PackageDescription
 
 let package = Package(
-	name: "CCryptoSSL-OSX",
+	name: "OpenSSL",
 	pkgConfig: "openssl",
 	providers: [
 		.Brew("openssl"), 
