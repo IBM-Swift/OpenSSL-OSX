@@ -14,8 +14,14 @@
  * limitations under the License.
  **/
  
-module OpenSSL [system] {
-       header "shim.h"
-       link "ssl"
-       link "crypto"
-} 
+#include <openssl/conf.h>
+#include <openssl/evp.h>
+#include <openssl/err.h>
+#include <openssl/bio.h>
+#include <openssl/ssl.h>
+#include <openssl/md4.h>
+#include <openssl/md5.h>
+#include <openssl/sha.h>
+#include <openssl/hmac.h>
+#include <openssl/rand.h>
+

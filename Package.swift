@@ -18,7 +18,7 @@ import PackageDescription
 
 let package = Package(
 	name: "OpenSSL",
-	pkgConfig: "openssl",
+	pkgConfig: "open-ssl",
 	providers: [
 		.Brew("openssl"), 
 	]
