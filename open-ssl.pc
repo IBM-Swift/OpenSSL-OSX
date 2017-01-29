@@ -1,9 +1,0 @@
-prefix=/usr/local/opt/openssl/
-includedir=${prefix}/include/
-libdir=${prefix}/lib
-
-Name: open-ssl
-Description: Open SSL library
-Version: 1.0.2
-Cflags: -F${includedir} -I${includedir}
-Libs: -L${libdir} -lssl -lcrypto
